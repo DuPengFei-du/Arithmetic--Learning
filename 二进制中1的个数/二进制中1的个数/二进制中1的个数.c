@@ -1,20 +1,20 @@
 /*
-ÌâÄ¿ÃèÊö
-°ÑÒ»¸ö32-bitÕûÐÍ×ª³É¶þ½øÖÆ£¬ÆäÖÐ°üº¬¶àÉÙ¸ö1£¬±ÈÈç5µÄ¶þ½øÖÆ±í´ïÊÇ101£¬ÆäÖÐ°üº¬2¸ö1
+é¢˜ç›®æè¿°
+æŠŠä¸€ä¸ª32-bitæ•´åž‹è½¬æˆäºŒè¿›åˆ¶ï¼Œå…¶ä¸­åŒ…å«å¤šå°‘ä¸ª1ï¼Œæ¯”å¦‚5çš„äºŒè¿›åˆ¶è¡¨è¾¾æ˜¯101ï¼Œå…¶ä¸­åŒ…å«2ä¸ª1
 
-ÊäÈëÃèÊö:
-ÊäÈëÎªÕûÐÍ£¨Ê®½øÖÆ£©£¬Ö»Ðè¼æÈÝ32-bit¼´¿É£¬Èç5¡¢32
-Êä³öÃèÊö:
-Êä³öÎª×Ö·û´®£¬Èç¡°2¡±¡¢¡°1¡±
+è¾“å…¥æè¿°:
+è¾“å…¥ä¸ºæ•´åž‹ï¼ˆåè¿›åˆ¶ï¼‰ï¼Œåªéœ€å…¼å®¹32-bitå³å¯ï¼Œå¦‚5ã€32
+è¾“å‡ºæè¿°:
+è¾“å‡ºä¸ºå­—ç¬¦ä¸²ï¼Œå¦‚â€œ2â€ã€â€œ1â€
 
-Ê¾Àý1
-ÊäÈë
+ç¤ºä¾‹1
+è¾“å…¥
 5
-Êä³ö
+è¾“å‡º
 2
 
-ËµÃ÷
-5µÄ¶þ½øÖÆÊÇ101£¬ÆäÖÐ°üº¬2¸ö1
+è¯´æ˜Ž
+5çš„äºŒè¿›åˆ¶æ˜¯101ï¼Œå…¶ä¸­åŒ…å«2ä¸ª1
 */
 
 
@@ -52,5 +52,43 @@ int main()
 	}
 	printf("%d",sum);
 	return 0;
+}
+*/
+
+
+
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x ;
+    cin >> x;
+    int temp = 0;
+    while(x)
+    {
+        if(x%2!=0)
+           temp++;
+        x = x/2;
+    }
+    cout << temp << endl;
+    return 0;
+}
+*/
+
+
+
+
+/*
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+    int n = 0;
+    while (cin >> n) {
+        bitset<32> b(n);
+        cout << b.count() << endl;
+    }
+    return 0;
 }
 */
