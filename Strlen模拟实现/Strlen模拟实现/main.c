@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 
-//µİ¹é
+//é€’å½’
 #include<stdio.h>
 int my_strlen(char* str)
 {
@@ -20,7 +20,7 @@ int main()
 
 
 
-//¼ÆÊıÆ÷
+//è®¡æ•°å™¨
 #include<stdio.h>
 int my_strlen(char* str)
 {
@@ -41,8 +41,8 @@ int main()
 }
 
 
-//ÀûÓÃÖ¸Õë-Ö¸ÕëµÄ·½·¨
-//µÃ³öÁ½¸öÖ¸ÕëÖ®¼äµÄÔªËØ¸öÊı
+//åˆ©ç”¨æŒ‡é’ˆ-æŒ‡é’ˆçš„æ–¹æ³•
+//å¾—å‡ºä¸¤ä¸ªæŒ‡é’ˆä¹‹é—´çš„å…ƒç´ ä¸ªæ•°
 #include<stdio.h>
 int my_strlen(char* str)
 {
@@ -58,5 +58,24 @@ int main()
 	char arr[] = "Hello World";
 	int len = my_strlen(arr);
 	printf("%d\n", len);
+	return 0;
+}
+
+
+#include<stdio.h>
+#include<assert.h>
+int my_strlen(const char* str)
+{
+	assert(str != NULL);
+	if (*str == 0)
+		return 0;
+	else
+		return 1 + my_strlen(str + 1);
+}
+int main()
+{
+	char arr[] = "abcdef";
+	int len = my_strlen(arr);
+	printf("%d", len);
 	return 0;
 }
