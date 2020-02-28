@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "将每个元素替换为右侧的最大元素_1299", "将每个元素替换为右侧的最大元素_1299\将每个元素替换为右侧的最大元素_1299.vcxproj", "{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Debug|x64.ActiveCfg = Debug|x64
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Debug|x64.Build.0 = Debug|x64
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Debug|x86.Build.0 = Debug|Win32
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Release|x64.ActiveCfg = Release|x64
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Release|x64.Build.0 = Release|x64
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Release|x86.ActiveCfg = Release|Win32
+		{AA5BD865-84FF-4E3F-B373-7EFB673AEFF0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11FCF7EC-CEF1-492C-8FD8-FEE929AAE8A1}
+	EndGlobalSection
+EndGlobal
