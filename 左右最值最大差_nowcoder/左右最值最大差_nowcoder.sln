@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "左右最值最大差_nowcoder", "左右最值最大差_nowcoder\左右最值最大差_nowcoder.vcxproj", "{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Debug|x64.ActiveCfg = Debug|x64
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Debug|x64.Build.0 = Debug|x64
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Debug|x86.ActiveCfg = Debug|Win32
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Debug|x86.Build.0 = Debug|Win32
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Release|x64.ActiveCfg = Release|x64
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Release|x64.Build.0 = Release|x64
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Release|x86.ActiveCfg = Release|Win32
+		{E05B24C2-FFA2-40C2-9E77-ED2BD20A9C13}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D91C7059-12BC-437E-965F-9391A5F6E9BB}
+	EndGlobalSection
+EndGlobal
